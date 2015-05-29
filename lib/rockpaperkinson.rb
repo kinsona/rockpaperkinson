@@ -4,7 +4,7 @@ require "rockpaperkinson/player"
 
 module Rockpaperkinson
 
-  def new_game
+  def self.new_game
     r = RockPaperScissors.new
     r.play
   end
